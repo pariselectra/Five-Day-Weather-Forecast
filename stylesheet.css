@@ -1,0 +1,45 @@
+
+h1 {
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: verdana;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    color: black;
+    font-family: verdana;
+    letter-spacing: -0.5px;
+}
+
+h3 {
+    position: absolute;
+    left: 300px;
+    top: 265px;
+    font-family: verdana;
+}
+
+#searchButton {
+    color: white;
+    background: rgb(68,59,222);
+    background: linear-gradient(90deg, rgba(68,59,222,1) 31%, rgba(71,110,212,1) 53%, rgba(45,140,222,1) 73%);
+    font-size: 15px;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 187px;
+    left: 6px;
+    border-radius: 7px;
+    border: none;
+}
+
+#cityInput {
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    top: 140px;
+}
