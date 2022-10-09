@@ -17,8 +17,18 @@ h2 {
 h3 {
     position: absolute;
     left: 300px;
-    top: 265px;
+    top: 315px;
     font-family: verdana;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    z-index: 3;
+}
+
+li {
+    list-style: none;
 }
 
 #searchButton {
@@ -42,4 +52,62 @@ h3 {
     height: 30px;
     position: absolute;
     top: 140px;
+}
+
+.currentContainer {
+    border: 2px solid black;
+    width: 80%;
+    position: absolute;
+    left: 300px;
+    top: 95px;
+}
+
+.dayOne {
+    background-color: #323d4f;
+    color: white;
+    width: 180px;
+    height: 200px;
+    position: absolute;
+    left: 300px;
+    top: 380px;
+}
+
+.dayTwo {
+    background-color: #323d4f;
+    color: white;
+    width: 180px;
+    height: 200px;
+    position: absolute;
+    left: 500px;
+    top: 380px;
+}
+
+.dayThree {
+    background-color: #323d4f;
+    color: white;
+    width: 180px;
+    height: 200px;
+    position: absolute;
+    left: 700px;
+    top: 380px;
+}
+
+.dayFour {
+    background-color: #323d4f;
+    color: white;
+    width: 180px;
+    height: 200px;
+    position: absolute;
+    left: 900px;
+    top: 380px;
+}
+
+.dayFive {
+    background-color: #323d4f;
+    color: white;
+    width: 180px;
+    height: 200px;
+    position: absolute;
+    left: 1100px;
+    top: 380px;
 }
