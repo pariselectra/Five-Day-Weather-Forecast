@@ -111,3 +111,124 @@ li {
     left: 1100px;
     top: 380px;
 }
+
+#dayOneDate {
+    position: absolute;
+    left: 5px;
+}
+
+#dayOneTemp {
+    position: absolute;
+    left: 5px;
+    top: 70px;
+}
+
+#dayOneWind {
+    position: absolute;
+    left: 5px;
+    top: 115px;
+}
+
+#dayOneHumidity {
+    position: absolute;
+    left: 5px;
+    top: 160px;
+}
+
+#dayTwoDate {
+    position: absolute;
+    left: 5px;
+}
+
+#dayTwoTemp {
+    position: absolute;
+    left: 5px;
+    top: 70px;
+}
+
+#dayTwoWind {
+    position: absolute;
+    left: 5px;
+    top: 115px;
+}
+
+#dayTwoHumidity {
+    position: absolute;
+    left: 5px;
+    top: 160px;
+}
+
+#dayThreeDate {
+    position: absolute;
+    left: 5px;
+}
+
+#dayThreeTemp {
+    position: absolute;
+    left: 5px;
+    top: 70px;
+}
+
+#dayThreeWind {
+    position: absolute;
+    left: 5px;
+    top: 115px;
+}
+
+#dayThreeHumidity {
+    position: absolute;
+    left: 5px;
+    top: 160px;
+}
+
+#dayFourDate {
+    position: absolute;
+    left: 5px;
+}
+
+#dayFourTemp {
+    position: absolute;
+    left: 5px;
+    top: 70px;
+}
+
+#dayFourWind {
+    position: absolute;
+    left: 5px;
+    top: 115px;
+}
+
+#dayFourHumidity {
+    position: absolute;
+    left: 5px;
+    top: 160px;
+}
+
+#dayFiveDate {
+    position: absolute;
+    left: 5px;
+}
+
+#dayFiveTemp {
+    position: absolute;
+    left: 5px;
+    top: 70px;
+}
+
+#dayFiveWind {
+    position: absolute;
+    left: 5px;
+    top: 115px;
+}
+
+#dayFiveHumidity {
+    position: absolute;
+    left: 5px;
+    top: 160px;
+}
+
+#listOfCities {
+    font-size: 100px;
+    color: red;
+    z-index: 8;
+}

@@ -3,6 +3,7 @@ const APIKey = "67e07ebfc7be74885d77376a79a4a255";
 let cityInput = $('#cityInput')
 let nameOfCity = $('#cityName')
 const date = new Date();
+var listOfCities = $('#listOfCities')
 
 function kelvinToFahrenheit(temp) {
     let fahrenheit = (temp-273.15) * 9/5 + 32;
@@ -30,6 +31,16 @@ function searchCity(){
         nameOfCity.append(div);
         div.append(cityName);
         nameOfCity.append(date);
+        
+
+        // Dallas at end of time
+        // let listOfCities = data.name;
+        // let el = $('<el>')
+        // nameOfCity.append(el);
+        // el.append(listOfCities);
+
+        
+
 
         // Converts from lat/lon to city
         let latitude = data.coord.lat
@@ -62,7 +73,6 @@ function searchForecast(latitude, longitude){
     // Day One
         let dayOneDate =  new Date()
         dayOneDate.setDate(date.getDate() + 1);
-        console.log(dayOneDate);
         $('#dayOneDate').append(dayOneDate);
 
         let dayOneTemp = kelvinToFahrenheit(res.list[4].main.temp);
@@ -77,7 +87,6 @@ function searchForecast(latitude, longitude){
     // Day Two
         let dayTwoDate =  new Date()
         dayTwoDate.setDate(date.getDate() + 2);
-        console.log(dayTwoDate);
         $('#dayTwoDate').append(dayTwoDate);
 
         let dayTwoTemp = kelvinToFahrenheit(res.list[12].main.temp);
@@ -93,7 +102,6 @@ function searchForecast(latitude, longitude){
      // Day Three
         let dayThreeDate =  new Date()
         dayThreeDate.setDate(date.getDate() + 3);
-        console.log(dayThreeDate);
         $('#dayThreeDate').append(dayThreeDate);
 
         let dayThreeTemp = kelvinToFahrenheit(res.list[20].main.temp);
@@ -108,7 +116,6 @@ function searchForecast(latitude, longitude){
     // Day Four
         let dayFourDate =  new Date()
         dayFourDate.setDate(date.getDate() + 4);
-        console.log(dayFourDate);
         $('#dayFourDate').append(dayFourDate);
 
         let dayFourTemp = kelvinToFahrenheit(res.list[28].main.temp);
@@ -123,7 +130,6 @@ function searchForecast(latitude, longitude){
     // Day Five
         let dayFiveDate =  new Date()
         dayFiveDate.setDate(date.getDate() + 5);
-        console.log(dayFiveDate);
         $('#dayFiveDate').append(dayFiveDate);
 
         let dayFiveTemp = kelvinToFahrenheit(res.list[36].main.temp);
@@ -136,4 +142,3 @@ function searchForecast(latitude, longitude){
         $('#dayFiveHumidity').append(dayFiveHumidity);
 })
 }
- 
