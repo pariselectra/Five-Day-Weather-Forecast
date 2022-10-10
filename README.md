@@ -1,7 +1,5 @@
 # Five-Day-Weather-Forecast
 
-# <Your-Project-Title>
-
 ## Description
 
 This project was the 5th project completed during my coding bootcamp at the University of Texas at Austin. The point of the project was to use the concepts already reviewed in class: javascript, CSS, HTML, and third party APIs. The goal of the challenge was to use a weather forecast API in order to pull temperature, wind, humidity, and potential forecasts in any given city. This challenge deploys a similar structure that the weather app on an iphone uses. The weather app pulls from an API that collects data from weather stations across the globe. This makes it so that Apple's weather app doesn't actually have to maintain all of those weather stations, but rather just pulls the data.
@@ -12,27 +10,29 @@ Overall, this project was a good practice in sorting through large datasets and 
 
 ## Installation
 
-Javascript file:
+Javascript file: https://github.com/pariselectra/Five-Day-Weather-Forecast/blob/main/script.js
 
-HTML file:
+HTML file: https://github.com/pariselectra/Five-Day-Weather-Forecast/blob/main/index.html
 
-CSS file:
+CSS file: https://github.com/pariselectra/Five-Day-Weather-Forecast/blob/main/stylesheet.css
 
+Live Site: https://pariselectra.github.io/Five-Day-Weather-Forecast/
 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![Before Search](./images/Screen%20Shot%202022-10-09%20at%2011.56.18%20PM.png)
+![After Search](./images/Screen%20Shot%202022-10-09%20at%2011.56.34%20PM.png)
 
 ## Credits
 
-https://openweathermap.org/forecast5
-https://openweathermap.org/api/geocoding-api
-http://jsonviewer.stack.hu/
+This challenge was created while in attendance at the University of Texas at Austin's Coding Bootcamp, in conjunction with Trilogy Education.
+
+Weather API: https://openweathermap.org/forecast5
+
+GeocodingAPI: https://openweathermap.org/api/geocoding-api
+
+JSON viewer: http://jsonviewer.stack.hu/
 
 
 ## License
@@ -42,12 +42,8 @@ MIT License
 https://github.com/pariselectra/Five-Day-Weather-Forecast/blob/main/LICENSE
 
 
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
 ## Features
 
-If your project has a lot of features, list them here.
+-Search any city in the world
+
+-Get consistently updated five day forecast
